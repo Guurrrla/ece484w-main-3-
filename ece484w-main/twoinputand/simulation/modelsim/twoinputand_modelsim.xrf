@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Steph/Documents/test/twoinputand/twoinputand.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Steph/Documents/test/twoinputand/db/twoinputand.cbx.xml
+design_name = twoinputand
+instance = comp, \Y~output\, Y~output, twoinputand, 1
+instance = comp, \A~input\, A~input, twoinputand, 1
+instance = comp, \B~input\, B~input, twoinputand, 1
+instance = comp, \process_0~0\, process_0~0, twoinputand, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, twoinputand, 1
